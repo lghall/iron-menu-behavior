@@ -170,7 +170,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             MockInteractions.keyDownOn(menu, 40);
 
             Polymer.Base.async(function() {
-              var focusedItem = Polymer.dom(menu).node.focusedItem;
+              var focusedItem = menu.focusedItem;
               assert.equal(focusedItem, menu.items[2], 'menu.items[2] is focused');
               done();
             });
@@ -187,7 +187,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             MockInteractions.keyDownOn(menu, 40);
 
             Polymer.Base.async(function() {
-              var focusedItem = Polymer.dom(menu).node.focusedItem;
+              var focusedItem = menu.focusedItem;
               assert.equal(focusedItem, menu.items[4], 'menu.items[4] is focused');
               done();
             });
@@ -205,7 +205,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             MockInteractions.keyDownOn(menu, 40);
 
             Polymer.Base.async(function() {
-              var focusedItem = Polymer.dom(menu).node.focusedItem;
+              var focusedItem = menu.focusedItem;
               assert.equal(focusedItem, menu.items[4], 'menu.items[4] is focused');
               done();
             });
@@ -221,7 +221,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             MockInteractions.keyDownOn(menu, 40);
 
             Polymer.Base.async(function() {
-              var focusedItem = Polymer.dom(menu).node.focusedItem;
+              var focusedItem = menu.focusedItem;
               assert.equal(focusedItem, undefined, 'no focused item');
               done();
             });
@@ -237,7 +237,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             MockInteractions.keyDownOn(menu, 40);
 
             Polymer.Base.async(function() {
-              var focusedItem = Polymer.dom(menu).node.focusedItem;
+              var focusedItem = menu.focusedItem;
               assert.equal(focusedItem, undefined, 'no focused item');
               done();
             });
@@ -254,7 +254,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             MockInteractions.keyDownOn(menu, 38);
 
             Polymer.Base.async(function() {
-              var focusedItem = Polymer.dom(menu).node.focusedItem;
+              var focusedItem = menu.focusedItem;
               assert.equal(focusedItem, menu.items[2], 'menu.items[2] is focused');
               done();
             });
@@ -271,7 +271,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             MockInteractions.keyDownOn(menu, 38);
 
             Polymer.Base.async(function() {
-              var focusedItem = Polymer.dom(menu).node.focusedItem;
+              var focusedItem = menu.focusedItem;
               assert.equal(focusedItem, menu.items[4], 'menu.items[4] is focused');
               done();
             });
@@ -289,7 +289,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             MockInteractions.keyDownOn(menu, 38);
 
             Polymer.Base.async(function() {
-              var focusedItem = Polymer.dom(menu).node.focusedItem;
+              var focusedItem = menu.focusedItem;
               assert.equal(focusedItem, menu.items[4], 'menu.items[4] is focused');
               done();
             });
@@ -306,7 +306,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             MockInteractions.keyDownOn(menu, 38);
 
             Polymer.Base.async(function() {
-              var focusedItem = Polymer.dom(menu).node.focusedItem;
+              var focusedItem = menu.focusedItem;
               assert.equal(focusedItem,  undefined, 'no focused item');
               done();
             });
@@ -323,7 +323,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             MockInteractions.keyDownOn(menu, 38);
 
             Polymer.Base.async(function() {
-              var focusedItem = Polymer.dom(menu).node.focusedItem;
+              var focusedItem = menu.focusedItem;
               assert.equal(focusedItem,  undefined, 'no focused item');
               done();
             });
@@ -340,7 +340,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             MockInteractions.keyDownOn(menu, 66);
 
             Polymer.Base.async(function() {
-              var focusedItem = Polymer.dom(menu).node.focusedItem;
+              var focusedItem = menu.focusedItem;
               assert.equal(focusedItem, menu.items[2], 'menu.items[2] is focused');
               done();
             });
@@ -357,7 +357,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             MockInteractions.keyDownOn(menu, 67);
 
             Polymer.Base.async(function() {
-              var focusedItem = Polymer.dom(menu).node.focusedItem;
+              var focusedItem = menu.focusedItem;
               assert.equal(focusedItem, menu.items[0], 'menu.items[0] is focused');
               done();
             });
@@ -374,7 +374,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             MockInteractions.keyDownOn(menu, 67);
 
             Polymer.Base.async(function() {
-              var focusedItem = Polymer.dom(menu).node.focusedItem;
+              var focusedItem = menu.focusedItem;
               assert.equal(focusedItem,  undefined, 'no focused item');
               done();
             });
